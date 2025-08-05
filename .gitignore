@@ -1,0 +1,21 @@
+# Fichiers temporaires Unreal
+Saved/
+Intermediate/
+DerivedDataCache/
+.vscode/
+
+# Fichiers de build générés
+Binaries/
+Build/
+
+# Autres fichiers à ignorer
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# Ignorer Mac & Linux
+*.DS_Store
