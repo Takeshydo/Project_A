@@ -25,5 +25,10 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
+	//Appel des 'fonction' du Cpp | Ici ca fait les choses (dans le .h) et le Cpp explique ce qu'il doit faire (Dans le Cpp)
+	void MoveX(float Value);
+	void MoveY(float Value);
+	
 
 };
